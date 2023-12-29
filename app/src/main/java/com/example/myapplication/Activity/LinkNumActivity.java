@@ -41,7 +41,7 @@ public class LinkNumActivity extends AppCompatActivity {
 
         listView = findViewById(R.id.list_items);
 
-        Button mainButton=findViewById(R.id.numbut);
+        Button mainButton=findViewById(R.id.mainbut);
         mainButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

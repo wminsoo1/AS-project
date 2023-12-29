@@ -43,7 +43,7 @@ public class NumActivity extends AppCompatActivity {
             }
         });
 
-        Button mainButton=findViewById(R.id.numbut);
+        Button mainButton=findViewById(R.id.mainbut);
         mainButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
