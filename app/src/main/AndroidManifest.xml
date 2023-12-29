@@ -13,19 +13,19 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
-            android:name=".FreeActivity"
+            android:name=".activity.FreeActivity"
             android:exported="false" />
         <activity
-            android:name=".ImgActivity"
+            android:name=".activity.ImgActivity"
             android:exported="false" />
         <activity
-            android:name=".NumActivity"
+            android:name=".activity.NumActivity"
             android:exported="false" />
         <activity
             android:name=".ButtonActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".activity.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
