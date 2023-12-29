@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".Activity.MainActivity">
 
     <ListView
         android:id="@+id/list_items"
@@ -19,7 +19,7 @@
     app:layout_constraintVertical_bias="1.0" />
 
     <Button
-        android:id="@+id/mainbut"
+        android:id="@+id/numbut"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Button"

@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.myapplication.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,6 +9,10 @@ import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.ListView;
 import android.widget.Toast;
+
+import com.example.myapplication.ListAdapter;
+import com.example.myapplication.Class.PhoneBook;
+import com.example.myapplication.R;
 
 import java.util.ArrayList;
 
@@ -39,11 +43,11 @@ public class NumActivity extends AppCompatActivity {
             }
         });
 
-        Button mainButton=findViewById(R.id.mainbut);
+        Button mainButton=findViewById(R.id.numbut);
         mainButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent=new Intent(getApplicationContext(),MainActivity.class);
+                Intent intent=new Intent(getApplicationContext(), MainActivity.class);
                 startActivity(intent);
             }
         });
