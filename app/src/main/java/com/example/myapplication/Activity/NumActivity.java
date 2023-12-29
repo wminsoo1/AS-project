@@ -11,7 +11,7 @@ import android.widget.ListView;
 import android.widget.Toast;
 
 import com.example.myapplication.ListAdapter;
-import com.example.myapplication.PhoneBook;
+import com.example.myapplication.Class.PhoneBook;
 import com.example.myapplication.R;
 
 import java.util.ArrayList;
