@@ -7,9 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.example.myapplication.Activity.FreeActivity;
-import com.example.myapplication.Activity.ImgActivity;
-import com.example.myapplication.Activity.NumActivity;
+
 import com.example.myapplication.R;
 
 public class MainActivity extends AppCompatActivity {
@@ -19,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button numButton=findViewById(R.id.mainbut);
+        Button numButton=findViewById(R.id.numbut);
         numButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
